@@ -30,7 +30,7 @@ function validateAndSubmit() {
         completecheck = false;
     }*/
     
-    if (ownPet <= 0 || ownPet >= 100 || ownPet === "") {
+    if (ownPet < 0 || ownPet > 100 || ownPet === "") {
         alert("Please input the amount of owned pet between 0-100");
         completecheck = false;
     }
