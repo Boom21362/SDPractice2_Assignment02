@@ -25,15 +25,16 @@ function validateAndSubmit() {
 
     let completecheck = true;
     
-    if (ownPet <= 0 || ownPet >= 100 || ownPet === "") {
-        alert("Please input the amount of owned pet between 0-100");
-        completecheck = false;
-    }
-
     if (pettingType === null) {
         alert("Please add petting type (inside/outside)");
         completecheck = false;
     }
+    
+    if (ownPet <= 0 || ownPet >= 100 || ownPet === "") {
+        alert("Please input the amount of owned pet between 0-100");
+        completecheck = false;
+    }
+    
     if (interestCheck.checked) {
         console.log("Checkbox checked!");
     } else {
