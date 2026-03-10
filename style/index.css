@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: bisque;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  margin: 5px;
+  color: orange;
+  background-color: bisque;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 40px;
+  color: orange;
+  background-color: brown;
+}
+
+.dog-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 500px); /* 2 columns */
+  gap: 20px; /* space between photos */
+  justify-items: center;
+}
+
+.dog-gallery img {
+  width: 300px;
+  height: 300px;
+  border: dotted;
+  border-radius: 10px;
+  color: darkblue;
+}
+
+.petName {
+  margin: 1px;
+  border: solid;
+  font-size: xx-large;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-align: center;
+  background-color: lightgrey;
+}
+.dog_description {
+  margin-top: 5px;
+  border: solid;
+  padding: 10px;
+}
+dt {
+  font-size: x-large;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+dd {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+}
+
+.adoptButton {
+  width: 300px;
+  height: 50px;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: white;
+  background-color: purple;
+  border: 2px solid purple;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.adoptButton:hover{
+  background-color: white;
+  color: black;
+  
+}
+
+.buttonAlt{
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+#adoptform{
+  font-size: 35px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"]{
+  width: 400px;       /* controls horizontal size */
+  height: 40px;       /* controls vertical size */
+  font-size: 30px;    /* makes the text inside larger */
+  padding: 8px;       /* adds space inside the box */
+  border-radius: 5px; /* optional: rounded corners */
+  border: 1px solid #ccc;
+}
+
+select {
+  width: 420px;
+  height: 45px;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+}
