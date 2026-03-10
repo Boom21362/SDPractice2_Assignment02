@@ -25,10 +25,10 @@ function validateAndSubmit() {
 
     let completecheck = true;
     
-    if (pettingType === null) {
+    /*if (pettingType === null) {
         alert("Please add petting type (inside/outside)");
         completecheck = false;
-    }
+    }*/
     
     if (ownPet <= 0 || ownPet >= 100 || ownPet === "") {
         alert("Please input the amount of owned pet between 0-100");
