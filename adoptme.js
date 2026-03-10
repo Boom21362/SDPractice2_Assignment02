@@ -47,6 +47,7 @@ function validateAndSubmit() {
     }
 
     let form1 = new Form(name, tel, email, address, houseType, pettingType, ownPet, interestCheck.checked);
+    alert("Form sent successfully!");
     console.log("Form completed Horay!");
     console.log(
         name +
